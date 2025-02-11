@@ -1,34 +1,35 @@
+
 # Trading_strategy9
 
-Этот проект реализует торговую стратегию на основе тиковых данных о best-bid и best-ask. В основе стратегии алгоритм вычисления экспоненциального среднего скользящего (EMA) с переменным окном усреднения.
+This project implements a trading strategy based on tick data on best-bid and best-ask. The strategy is based on an algorithm for calculating the exponential moving average (EMA) with a variable averaging window.
 
-## Структура проекта  
-- strategy.py — алгоритм торговли, принимает на вход data_example.csv и создает trade_results.csv с результатами.  
-- visualization.py — строит графики по trade_results.csv, помогая анализировать стратегию.  
-- data_example.csv — пример входных данных (тик цены best_bid и best_ask).  
-- trade_results.csv — файл с результатами работы стратегии (генерируется автоматически).  
-- README.md — этот файл, с инструкциями по использованию проекта.  
+## Project structure  
+- strategy.py — the trading algorithm accepts data_example.csv as input and creates trade_results.csv with the results.  
+- visualization.py — builds charts based on trade_results.csv, helping to analyze the strategy.  
+- data_example.csv is an example of input data (price tick best_bid and best_ask).  
+- trade_results.csv file with the results of the strategy (generated automatically).  
+- README.md — this file contains instructions on how to use the project.  
 
-## Установка и запуск  
-### 1. Установка зависимостей  
+## Installation and launch  
+### 1. Installing dependencies  
 
-Для работы с этим кодом вам потребуется установить библиотеки pandas и matplotlib. Вы можете сделать это с помощью менеджера пакетов pip.
+To work with this code, you will need to install the pandas and matplotlib libraries. You can do this using the pip package manager.
 
-Если у вас еще не установлены эти библиотеки, выполните следующие команды в терминале:
+If you do not have these libraries installed yet, run the following commands in the terminal:
 
 pip install pandas matplotlib
 
-### 2. Запуск торговой стратегии
-Сначала запусти strategy.py, который обработает data.csv и создаст trade_results.csv:
+###2. Launching a trading strategy
+Start it up first strategy.py , which will process data.csv and create trade_results.csv:
 
 python strategy.py
 
-### 3. Визуализация результатов
-После работы стратегии можно построить графики, запустив visualization.py:
+### 3. Visualization of results
+After the strategy is working, you can build graphs by running visualization.py:
 
 python visualization.py
 
-## Требования
+## Requirements
 
 Python
 Pandas
@@ -36,11 +37,12 @@ Matplotlib
 
 ## TODO
 
-Оптимизация параметров
-Добавление регрессионных методов в алгоритм
+Optimization of parameters
 
-## Контакты
+Adding regression methods to the algorithm
+
+## Contacts
 
 Email:a.kuznetsov7677@gmail.com
-Github:alex-kuznetsov7677
 
+Github:alex-kuznetsov7677
