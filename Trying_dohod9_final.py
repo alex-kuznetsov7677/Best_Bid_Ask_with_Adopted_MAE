@@ -164,6 +164,6 @@ def trade_logic(file_path, size_cash=20.5, window_size=10,
 
 
 if __name__ == "__main__":
-    file_path = 'best_bid_ask_data8.csv'
+    file_path = 'data_example.csv'
     trade_logic(file_path)
 
