@@ -1,5 +1,5 @@
 
-# Trading_strategy
+# EMA with a variable averaging window
 
 This project implements a trading strategy based on tick data on best-bid and best-ask. The strategy is based on an algorithm for calculating the exponential moving average (EMA) with a variable averaging window.
 
