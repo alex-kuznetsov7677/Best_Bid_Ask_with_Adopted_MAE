@@ -1,14 +1,14 @@
 
-# Trading_strategy9
+# Trading_strategy
 
 This project implements a trading strategy based on tick data on best-bid and best-ask. The strategy is based on an algorithm for calculating the exponential moving average (EMA) with a variable averaging window.
 
 ## Project structure  
-- strategy.py — the trading algorithm accepts data_example.csv as input and creates trade_results.csv with the results.  
-- visualization.py — builds charts based on trade_results.csv, helping to analyze the strategy.  
+- strategy.py â€” the trading algorithm accepts data_example.csv as input and creates trade_results.csv with the results.  
+- visualization.py â€” builds charts based on trade_results.csv, helping to analyze the strategy.  
 - data_example.csv is an example of input data (price tick best_bid and best_ask).  
 - trade_results.csv file with the results of the strategy (generated automatically).  
-- README.md — this file contains instructions on how to use the project.  
+- README.md â€” this file contains instructions on how to use the project.  
 
 ## Installation and launch  
 ### 1. Installing dependencies  
